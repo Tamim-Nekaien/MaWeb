@@ -75,7 +75,7 @@ main {
   grid-template-areas:
     "bioimage bio bio"
     "job1 job2 job3";
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 
   img {
     width: 300px;
@@ -98,13 +98,13 @@ main {
     grid-area: job1;
   }
 
-  .job-3 {
+  .job-2 {
     grid-area: job2;
   }
 
-  .job-2 {
-    grid-area: job3;
-  }
+  // .job-3 {
+  //   grid-area: job3;
+  // }
 
   .job {
     background: lighten($primary-color, $amount: 5);
